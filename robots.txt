@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: *
+Disallow: /contacts.php
+
+User-Agent: *
+Disallow: /pics/*
+
+User-Agent: Googlebot-Image
+Allow: /pics/burgerHeader.jpg
+

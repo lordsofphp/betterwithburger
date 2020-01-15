@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+#login{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}

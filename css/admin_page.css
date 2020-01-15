@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+#header{
+    color: white;
+    background-color: black;
+    width: 1000px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+}
+#header p {
+    font-size: 14px;
+}
+#content{
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+#nav {
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid white;
+    border-radius: 4px;
+    width:250px;
+    font-size: 25px;
+    position: fixed;
+    margin-top: 5px;
+}
+.list{
+    margin-bottom: 20px;
+}
+ul.list{
+    list-style-type: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+#main{
+    float: right;
+    color: white;
+    width: 700px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    overflow: auto;
+}
+.show-menu{
+    display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+.list i {
+    margin-right: 5px;
+}
+#profile{
+  margin-left: 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#employee{
+    margin-left: 5px;
+}
+
+.head{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+}
+fieldset {
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    float: left;
+    margin-left: 10px;
+}
+.listing{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-left: 5px;
+}
+input {
+
+}

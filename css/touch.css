@@ -1,0 +1,423 @@
+body{
+    background-color: black;
+}
+#header{
+
+}
+#content{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#nav {
+    font-family: 'Roboto Slab', serif;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 8px;
+    width:100%;
+    font-size: 25px;
+}
+ul.list{
+    list-style-type: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    border: 1px white solid;
+    border-radius: 8px;
+    padding:5px ;
+    background-color: black;
+}
+.link:hover {
+    color:black;
+    background-color: white;
+}
+#main{
+    float:left;
+    color: white;
+    width: 100%;
+}
+#logo{
+    margin:auto;
+    width: 100%;
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+#footer{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid white;
+}
+p.text{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+}
+p.text2{
+    width:auto;
+    font-size: 10px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border:1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: black;
+    width: auto;
+    height: auto;
+    margin:auto;
+    border: 1px solid white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+#questions{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    height: auto;
+}
+.bar{
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+}
+
+#bars{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+}
+.barsCaps{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    display: inline;
+}
+.barsSmallCaps{
+    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+}
+#cheeseburger{
+    float: left;
+    margin-left: 5%;
+}
+#cheeseburger2{
+    float: right;
+}
+
+/* contacts */
+#members{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.member_pic {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-right: 8px;
+}
+.project{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.member_caps{
+    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+.list{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+iframe{
+    border: none;
+}
+
+#cheeseburger{
+    float: none;
+    margin: auto;
+}
+#eggburger{
+    margin: auto;
+    float: none;
+}
+#burgergreenlettuce{
+    margin: auto;
+    float: none;
+}
+p.burgerdesc{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+#baconburger{
+    margin: auto;
+    float: none;
+}
+#grilledmeatburger{
+    margin: auto;
+    float: none;
+}
+#burgerwithham{
+    margin: auto;
+    float: none;
+}
+.burger_type{
+    width: 100%;
+    height: 100%;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+}
+
+.bar_pics{
+    width:100%;
+    height:100%;
+}
+.g_map{
+    width: 100%;
+    height: 100%;
+    margin-bottom:10px;
+}
+
+.spacing{
+    padding-top: 20px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    color:white;
+}
+
+#show-menu{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ .list{
+    display: block;
+}
+.show-menu {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    text-align: left;
+    padding: 10px 0;
+    display: none;
+    cursor:pointer;
+}
+
+
+#nav { /* menu*/
+    float:none;
+    text-align:center;
+    width:auto;
+}
+#nav a {
+    display:block;
+    font-size:12pt;
+    line-height:20pt;
+    border-left:2px solid #fff;
+    border-radius: 8px;
+    float:none;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li, li a {
+    float:none;
+}
+
+.show-menu {
+    display:block;
+}
+.show-menu:hover{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.fa-envelope {
+    margin-right: 5px;
+}
+.fa-home{
+    margin-right: 5px;
+}
+
+.fa-history{
+    margin-right: 5px;
+}
+.fa-map-signs{
+    margin-right: 5px;
+}
+.fa-id-badge{
+    margin-right: 5px;
+}
+.fa-folder{
+    margin-right: 5px;
+}
+.fa-bars{
+    padding-left: 4px;
+}
+
+#bann {
+    border: none;
+    width:100%;
+    font-size: 25px;
+}
+.bannerImg{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+#banners{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.bannCaps{
+    text-decoration: none;
+    font-size: 20px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#logindiv{
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    font-size: 17px;
+
+}
+#logindiv h3{
+    text-align: center;
+}
+
+#profilediv{
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    font-size: 17px;
+    text-align: center;
+
+}
+#profilediv h3{
+    text-align: center;
+}
+#profilediv a{
+    text-decoration: none;
+    color: white;
+}
+
+#regbutton{
+    background: none;
+    color: white;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+#regdiv{
+    margin-top: 5%;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5%;
+    text-align: left;
+}
+#regdiv b{
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+
+}
+#regdiv h2 {
+    text-align: center;
+}
+.reg_error{
+    color: crimson;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+#order{
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#order legend{
+    font-size: 25px;
+}
+#order_div{
+    margin-left: 30px;
+    text-align: left;
+}
+#order_checkbox{
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+}
